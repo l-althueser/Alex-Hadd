@@ -12,11 +12,11 @@ Usage
 
 If the program is called as follows:
 
-    ahadd.py -h
+    LA_hadd.py -h
 
 It will provide the following usage guide:
 
-    Usage: ahadd.py [Options] output_file input_files
+    Usage: LA_hadd.py [Options] output_file input_files
 
     Options:
       --version             show program's version number and exit
@@ -43,7 +43,7 @@ the default calculated for your computer.
 
 The simplest usage case is:
 
-    ahadd.py output.root *root
+    LA_hadd.py output.root *root
 
 This will add every histogram in the current directory together, and save the
 result as output.root.
